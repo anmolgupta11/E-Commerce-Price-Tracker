@@ -38,7 +38,7 @@ def send_mail():
 
 
     subject = 'Hey Anmol, Price fell down for your product!!!'
-    body = 'Check your product: https://www.amazon.in/Canon-1500D-Digital-Camera-S18-55/dp/B07BS4TJ43/ref=sr_1_1?dchild=1&keywords=dslr&qid=1594041967&sr=8-1' 
+    body = 'Hey! \nThe price of your product has fallen below your desired price of Rs. 24000! \nCheck it here: https://www.amazon.in/Canon-1500D-Digital-Camera-S18-55/dp/B07BS4TJ43/ref=sr_1_1?dchild=1&keywords=dslr&qid=1594041967&sr=8-1' 
 
     msg = f"Subject: {subject}\n\n{body}"
 
